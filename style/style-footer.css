@@ -1,0 +1,187 @@
+.footer-block{
+    position: relative;
+    width: 100%;
+    height: 518px;
+    margin-top: 125px;
+    background: rgba(36, 70, 83, 1);
+}
+footer{
+    position: absolute;
+    width: 1170px;
+    height: 518px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.footer-left-block{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 634px;
+    margin-top: 71px;
+}
+.footer-left-block h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(238, 247, 255, 1);
+}
+.footer-left-first-block{
+    position: relative;
+    margin-top: 32px;
+    width: 634px;
+    height: 212px;
+}
+.footer-left-first,
+.footer-left-second{
+    position: relative;
+    display: inline-block;
+    float:left;
+   
+}
+.footer-left-first{
+    width: 320px;
+    height: 200px;
+}
+.footer-left-second{
+    width: 314px;
+    height: 212px;
+}
+.footer-left-first p,
+.footer-left-second p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.36px;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgba(218, 243, 241, 0.7);
+    transition: all 0.4s;
+}
+.footer-left-first p:hover,
+.footer-left-second p:hover{
+    color: rgba(218, 243, 241, 0.95);
+}
+.footer-left-third{
+    position: relative;
+    width: 323px;
+    height: 68px;
+    margin-top: 55px;
+}
+.footer-left-third h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44.21px;
+    text-align: left;
+    color: rgba(247, 138, 60, 1);
+}
+.footer-left-third h2{
+    margin-top: 8px;
+    font-size: 11.98px;
+    font-weight: 400;
+    line-height: 14.86px;
+    text-align: left;
+    color: rgba(218, 243, 241, 0.76);
+}
+.footer-right-block{
+    position: relative;
+    display: inline-block;
+    float:right;
+    width: 295px;
+    height: calc(100% - 71px );
+    margin-top: 71px;
+}
+.footer-right-contact{
+    position: relative;
+    width: 250px;
+    height: 129px;
+    border-bottom: 1px solid rgba(218, 243, 241, 1);
+}
+.footer-right-contact h1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(218, 243, 241, 1);
+}
+.footer-right-contact-mail{
+    position: relative;
+    width: 100%;
+    height: 17px;
+    margin-top: 52px;
+}
+.contact-mail-icon{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 16px;
+    height: 12px;
+    margin-top: 2.5px;
+    background: url('../image/icon-mail.png');
+}
+.footer-right-contact-mail h2,
+.footer-right-contact-telegram h2{
+    position: relative;
+    display: inline-block;
+    float:left;
+    margin-left: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    color: rgba(218, 243, 241, 0.66);
+}
+.footer-right-contact-telegram{
+    position: relative;
+    width: 100%;
+    height: 17px;
+    margin-top: 7px;
+}
+.contact-telegram-icon{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 16px;
+    height: 12px;
+    margin-top: 2.5px;
+    background: url('../image/icon-telegram.png');
+}
+.footer-right-reserved{
+    position: relative;
+    width: 295px;
+    height: 88px;
+    margin-top: 38px;
+}
+.footer-right-reserved p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(218, 243, 241, 1);
+}
+.footer-right-reserved .style2{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.footer-right-button{
+    position: relative;
+    width: 274px;
+    height: 56px;
+    border-radius: 25px;
+    border: 1px;
+    margin-top: 70px;
+    border: 1px solid rgba(218, 243, 241, 1);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 53.66px;
+    text-align: center;
+    color: rgba(218, 243, 241, 1);
+    transition: all 0.4s;
+}
+.footer-right-button:hover{
+    cursor: pointer;
+    background: rgba(247, 116, 21, 1);
+}

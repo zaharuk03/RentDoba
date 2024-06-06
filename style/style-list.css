@@ -1,0 +1,697 @@
+.list-search-block{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 43px;
+}
+.list-search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 1174.96px;
+    height: 40px;
+}
+.list-search-input-block{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 337px;
+    height: 40px;
+}
+.list-search-input-block input{
+    position: relative;
+    width: 337px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px;
+    border: 1px solid rgba(36, 70, 83, 1);
+    padding-left: 23px;
+    font-family: Unbounded;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18.66px;
+    text-align: left;
+    color: rgba(36, 70, 83, 0.5);
+}
+.list-search-input-block .search-icon{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    background: url('../image/search.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list-search-filter-block{
+    position: relative;
+    display: inline-block;
+    float: right;
+    height: 40px;
+    padding: 8px 17px 8px 9px;
+    border-radius: 20px;
+    border: 1px;
+    border: 1px solid rgba(36, 70, 83, 1);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.list-search-filter-icon{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width:24px;
+    height: 100%;
+}
+.list-search-filter-icon div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.list-search-filter-block h2{
+    position: relative;
+    display: inline-block;
+    float:left;
+    font-family: Unbounded;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(36, 70, 83, 0.8);
+    padding-left: 8px;
+}
+.list-sort-hidden {
+    display: none;
+}
+.list-sort-visible {
+    display: block;
+}
+.list-search-filter-block.active {
+    border: 1px solid rgba(36, 70, 83, 1);
+}
+.list-search-filter-block.active h2 {
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-block{
+    position: absolute;
+    top: calc(50% + 112px);
+    left: calc(50% + 150px);
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    height: 165px;
+    background: rgba(249, 252, 255, 1);
+    box-shadow: 0px 0px 11.9px 0px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+.list-sort-label-block{
+    position: relative;
+    width: calc(100% - 14px);
+    margin-top: 17px;
+    margin-left: 14px;
+    height: 132px;
+}
+.list-sort-label{
+    position: relative;
+    width: 100%;
+    height:15px;
+
+    font-family: Unbounded;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.93px;
+    text-align: left;
+}
+.list-sort-label span{
+    margin-left: 13px;
+    cursor: pointer;
+}
+.custom-radio {
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    border: 0.5px solid rgba(36, 70, 83, 0.8);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-radio:checked {
+    width: 11px;
+    height: 11px;
+    border: 0.5px solid rgba(247, 116, 21, 1);
+}
+
+.custom-radio:checked::before {
+    content: '';
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 0.5px solid rgba(247, 116, 21, 1);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.list-search-button{
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 186px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px;
+    background: rgba(247, 116, 21, 1);
+    border: 1px solid rgba(247, 116, 21, 1);
+    font-family: Unbounded;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 38.93px;
+    text-align: center;
+    color: rgba(249, 252, 255, 1);
+    margin-left: 10px;
+}
+.list-recommendations-block{
+    position: relative;
+    width:100%;
+    margin-top: 44px;
+}
+.list-recommendations{
+    position: relative;
+    width: 1196px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.list-recommendations h1{
+    position: relative;
+    width: 210px;
+    height: 38px;
+    font-family: Unbounded;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.66px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 17px;
+    color: rgba(0, 0, 0, 1);
+}
+.recommendations-list-block{
+    position: relative;
+    display:inline-block;
+    float:left;
+    width: 272px;
+    height: 349px;
+    border-radius: 25px;
+    margin-left: 13.5px;
+    margin-right: 13.5px;
+    margin-bottom: 46px;
+    background: rgba(249, 252, 255, 1);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+.recommendations-list-block:hover{
+    border-bottom: 3px solid rgba(247, 116, 21, 1);
+}
+.recommendations-list-image{
+    position: relative;
+    width: 272px;
+    height: 211px;
+    border-radius: 25px 25px 0px 0px; 
+}
+.recommendations-list-block h1{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.66px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 44px;
+    color: rgba(0, 0, 0, 1);  
+}
+.recommendations-list-price{
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 18px;
+    width: 98px;
+    height: 29px;
+    border-radius: 10px;
+    background: rgba(36, 70, 83, 1);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(249, 252, 255, 1);
+    transition: all 0.4s;
+}
+.recommendations-list-block:hover .recommendations-list-price{
+    background: rgba(247, 116, 21, 1);
+}
+.recommendations-list-like{
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    width: 31px;
+    height: 28px;
+    border-radius: 5px;
+    background: rgba(249, 252, 255, 1);
+}
+.recommendations-list-like-image{
+    position: relative;
+    width:100%;
+    height:100%;
+    background: url("../image/recommendations-like.png");
+    background-position: center;
+    background-size: cover; 
+}
+.recommendations-list-location{
+    position: relative;
+    width: 186px;
+    height: 12px;
+    opacity: 0.5px;
+    margin-top: 7px;
+    margin-left: 18px;
+}
+.recommendations-list-location-block{
+    position: relative;
+    display:inline-block;
+    float:left;
+    width: 12px;
+    height: 12px;
+    background: url("../image/recommendations-icon.png");
+    background-position: center;
+    background-size: cover;
+}
+.recommendations-list-location span{
+    position: relative;
+    display:inline-block;
+    float:left;
+    margin-left: 2px;
+    font-size: 10px;
+    font-weight: 300;
+    text-align: left;
+}
+.recommendations-list-info-block{
+    position: relative;
+    margin-top: 33px;
+    width:100%;
+    height:29px;
+}
+.recommendations-list-info{
+    position: relative;
+    display: inline-block;
+    float:left;
+    min-width: 81px;
+    max-width: 159px;
+    height: 29px;
+    border-radius: 10px;
+    background: rgba(249, 252, 255, 1);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.93px;
+    text-align: center;
+}
+.list-loaded-block{
+    position: relative;
+    width:100%;
+    height: 42px;
+}
+.list-loaded{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 196px;
+    height: 42px;
+    padding: 12px 21px 12px 21px;
+    border-radius: 25px;
+    border: 1px;
+    border: 1px solid rgba(36, 70, 83, 1);
+    font-family: Unbounded;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.12px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+    cursor: pointer;
+}
+.list-sort-filters-blur {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+}
+.list-sort-filters-blur::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    filter: blur(30px); 
+}
+.list-sort-filters-block{
+    position: absolute; /* или relative, в зависимости от потребностей */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 874px;
+    max-width: 100%; /* чтобы блок не выходил за пределы страницы на маленьких экранах */
+    height: 998px;
+    max-height: 100%; /* чтобы блок не выходил за пределы страницы на маленьких экранах */
+    background: rgba(249, 252, 255, 1);
+    box-shadow: 0px 0px 11.9px 0px rgba(0, 0, 0, 0.3);
+}
+.list-sort-filters-block h1{
+    position: relative;
+    margin-top: 27px;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 0.8);
+}
+.list-sort-filter-price-block{
+    position: relative;
+    width: 874px;
+    height: 334px;
+    margin-top: 26px;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.list-sort-filter-price-block .filter-price{
+    position: absolute;
+    width: 70px;
+    height: 22px;
+    top: 35px;
+    left: 15px;
+    font-family: Unbounded;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-price-block .filter-price-second{
+    position: absolute;
+    width: 158px;
+    height: 22px;
+    top: 74px;
+    left: 15px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(248, 117, 22, 1);
+}
+.list-sort-filter-price-block .filter-price-third{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    top: 100px;
+    left: 16px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.filter-price-diagram{
+    position: absolute;
+    top: 148px;
+    width: 846px;
+    height: 199px;
+    margin-left: 14px;
+    background: url('../image/filter-price.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.filter-price-start{
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    top: 295px;
+    left: 16px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.filter-price-end{
+    position: absolute;
+    width: 141px;
+    height: 22px;
+    top: 295px;
+    right: 13px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-room-block{
+    position: relative;
+    width: 100%;
+    height: 224px;
+    margin-top: 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.list-sort-filter-room-h1{
+    position: absolute;
+    left: 16px;
+    font-family: Unbounded;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-room{
+    position: absolute;
+    width: 826px;
+    height: 106px;
+    top: 83px;
+    left: 17px;
+}
+.list-sort-filter-set1{
+    position: absolute;
+    width: 349px;
+    height: 25px;
+}
+.list-sort-filter-set1 h2{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 90px;
+    height: 22px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-set2{
+    position: absolute;
+    width: 311px;
+    height: 25px;
+    right: 0;
+}
+.list-sort-filter-set2 h2{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 69px;
+    height: 22px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-set3{
+    position: absolute;
+    width: 349px;
+    height: 25px;
+    margin-top: 56px;
+}
+.list-sort-filter-set3 h2{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 69px;
+    height: 22px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-room .filter-set{
+    position: relative;
+    display: inline-block;
+    float:right;
+    width: 122px;
+    height: 25px;
+}
+.list-sort-filter-room .filter-set .filter-set-minus{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 25px;
+    height: 25px;
+
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid rgba(182, 182, 182, 1);
+    background: url('../image/filter-minus.png');
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+.list-sort-filter-room .filter-set input{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+    margin-left: 22px;
+    margin-right: 21px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(182, 182, 182, 1);
+    background-color: transparent;
+    border: 0;
+}
+.list-sort-filter-room .filter-set .filter-set-plus{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid rgba(182, 182, 182, 1);
+    background: url('../image/filter-plus.png');
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+.list-sort-filter-limit-block{
+    position: relative;
+    width: 874px;
+    height: 224px;
+    margin-top: 35px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12)
+}
+.list-sort-filter-limit-block h2{
+    position: relative;
+    margin-left: 15px;
+    width: 184px;
+    height: 22px;
+    font-family: Unbounded;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-limit-set{
+    position: relative;
+    display: inline-block;
+    width: 316px;
+    height: 34px;
+    margin-top: 57px;
+    margin-right: 17px;
+}
+.list-sort-filter-limit-set h2{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 250px;
+    margin-left: 15px;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: rgba(36, 70, 83, 1);
+}
+.list-sort-filter-limit-set input{
+    position: relative;
+    display: inline-block;
+    float:right;
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid rgba(192, 192, 193, 1)
+}
+.list-sort-filters-block h3{
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 79px;
+    height: 22px;
+    margin-top: 25px;
+    margin-left: 17px;
+    font-family: Unbounded;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(192, 192, 193, 1);
+    cursor: pointer;
+}
+.list-sort-filter-submit{
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 175px;
+    height: 40px;
+    margin-top: 16px;
+    margin-right: 31px;
+    border-radius: 13px;
+    background: rgba(247, 116, 21, 1);
+    font-family: Unbounded;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(249, 252, 255, 1);
+    cursor: pointer;
+    
+
+}
+

@@ -1,0 +1,280 @@
+.authorization-block{
+    position: relative;
+    width: 100%;
+    height: 619px;
+    margin-top: 131px;
+}
+.authorization{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 665px;
+    height: 619px;
+}
+.authorization h1{
+    position: relative;
+    width: 100%;
+    height: 28px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: rgba(26, 26, 26, 1);
+}
+.authorization-login{
+    position: relative;
+    width: 493px;
+    height: 52px;
+    border-radius: 12px;
+    border: 2px;
+    color: rgba(117, 117, 117, 1);
+    border: 2px solid rgba(247, 116, 21, 1);
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.62px;
+    text-align: left;
+    padding-left: 14px;
+    margin-top: 58px;
+    margin-left: 86px;
+}
+.authorization-login-button{
+    position: relative;
+    width: 493px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px;
+    background: rgba(247, 116, 21, 1);
+    border: 1px solid rgba(247, 116, 21, 1);
+    font-family: Segoe UI;
+    font-size: 15.88px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 19px;
+    margin-left: 86px;
+}
+.authorization-login-block{
+    position: relative;
+    width: 457.1px;
+    height: 118px;
+    margin-top: 58px;
+    margin-left: 103px;
+}
+.authorization-login-block-text{
+    position: relative;
+    width: 457.1px;
+    height: 12px;
+}
+.login-block-text-line{
+    position: relative;
+    display: inline-block;
+    float:Left;
+    width: 87.55px;
+    height: 1px;
+    background: url('../image/line1.png');
+    background-position: center;
+    background-size: cover;
+    margin-top: 6px;
+}
+.authorization-login-block-text h2{
+    position: relative;
+    display: inline-block;
+    float:Left;
+    width: 266px;
+    height: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    color: rgba(26, 26, 26, 1);
+    margin-left: 8.45px;
+    margin-right: 7.55px;
+}
+.login-block-social{
+    position: relative;
+    width:100%;
+    height:72px;
+    margin-top: 34px;
+}
+.login-block-social-block{
+    position: relative;
+    display: inline-block;
+    float:Left;
+    width: 72px;
+    height: 72px;
+    padding: 24px;
+    border-radius: 4px;
+    border: 1px;
+    border: 1px solid rgba(231, 231, 231, 1);
+}
+.login-block-social-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-size: cover; 
+}
+.login-block-social-block .social-facebook{
+    background: url('../image/facebook.png');
+}
+.login-block-social-block .social-google{
+    background: url('../image/google.png');
+}
+.login-block-social-block .social-apple{
+    background: url('../image/apple.png');
+}
+.authorization-rules-block{
+    position: relative;
+    width: 100%;
+    height: 154px;
+    margin-top: 58px;
+}
+.authorization-rules{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 390px;
+    height: 154px;
+    border: 1px;
+    border-top: 1px solid rgba(231, 231, 231, 1);
+}
+.authorization-rules h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-top: 9px;
+    font-size: 13.89px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(26, 26, 26, 1);
+}
+.mail-title{
+    position: relative;
+    width: 460px;
+    height: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(26, 26, 26, 1);
+    margin-top: 17px;
+    margin-left: 102.5px;
+}
+.authorization-mail{
+    position: relative;
+    width: 493px;
+    height: 52px;
+    border-radius: 12px;
+    border: 2px;
+    color: rgba(117, 117, 117, 1);
+    border: 1px solid rgba(167, 167, 167, 1);
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.62px;
+    text-align: left;
+    padding-left: 14px;
+    margin-top: 58px;
+    margin-left: 86px;  
+}
+.authorization h3{
+    width: 198px;
+    height: 17px;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;
+    color: rgba(117, 117, 117, 0.5);
+    margin-top: 19px;
+    margin-left: 233.5px;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+}
+.authorization h4{
+    width: 134px;
+    height: 17px;
+    font-family: Unbounded;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.36px;
+    text-align: left;
+    color: rgba(117, 117, 117, 0.5);
+    margin-top: 19px;
+    margin-left: 265.5px;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+}
+.password-title{
+    position: relative;
+    width: 480px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 17px;
+    margin-left: 92.5px;
+    color: rgba(26, 26, 26, 1);
+}
+.authorization-password-block{
+    position: relative;
+    width: 493px;
+    height: 52px;
+    margin-top: 58px;
+    margin-left: 86px; 
+}
+.authorization-password{
+    position: relative;
+    width: 493px;
+    height: 52px;
+    border-radius: 12px;
+    border: 2px;
+    color: rgba(117, 117, 117, 1);
+    border: 1px solid rgba(167, 167, 167, 1);
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.62px;
+    text-align: left;
+    padding-left: 14px;
+}
+.authorization-password:hover{
+    border: 1px solid rgba(247, 116, 21, 1);
+}
+.authorization-password-icon,
+.authorization-password-iconhide{
+    position: absolute;
+    top: 50%;
+    left: 93%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.authorization-password-icon{
+    background: url('../image/eye2.png');
+}
+.authorization-password-iconhide{
+    background: url('../image/eye.png');
+}

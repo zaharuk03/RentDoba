@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Actay Wide';
+    src: url('../fonts/ActayWide-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.color-orange{
+    color:#FA7412F9;
+}
+.background-orange{
+    background-color: #FA7412F9;
+}
+.color-darkteal{
+    color: #244653;
+}
+.background-darkteal{
+    background-color: #244653;
+}
